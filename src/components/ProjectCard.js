@@ -23,9 +23,11 @@ const ProjectCard = ({ image, tags, title, description, demoURL, codeURL }) => {
         <a href={demoURL} target="_blank" rel="noreferrer">
           <DemoButton>Demo</DemoButton>
         </a>
-        <a href={codeURL} target="_blank" rel="noreferrer">
-          <CodeButton>Code</CodeButton>
-        </a>
+        {codeURL && (
+          <a href={codeURL} target="_blank" rel="noreferrer">
+            <CodeButton>Code</CodeButton>
+          </a>
+        )}
       </ButtonsContainer>
     </Card>
   );

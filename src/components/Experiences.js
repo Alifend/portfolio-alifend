@@ -1,19 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 import Studying from "../assets/studying.jpg";
+import SingleExperience from "./SingleExperience";
 const Experiences = () => {
   return (
     <ExperiencesContainer>
       <Title>Experiences</Title>
-      <Content>
-        <Image src={Studying} />
-        <Description>
-          Not yet, but I am learning every day so we can work together :)
-        </Description>
-      </Content>
+      {data.map((element, index) => (
+        <SingleExperience key={index} {...element} />
+      ))}
     </ExperiencesContainer>
   );
 };
+
+const data = [
+  {
+    title: "Ingeniero Junior Full Stack ",
+    at: "Consultora C&O - Jornada completa jun.",
+    time: " 2021 - actualidad - 9 meses",
+    place: "Cali, Valle del Cauca, Colombia",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E0BAQHmpU9Okf0LJg/company-logo_200_200/0/1580494914832?e=1653523200&v=beta&t=HIG3wgkYyGtWXv4UDci5p3T7TBcQMH3byXYFQnyMjlM",
+  },
+];
 
 const ExperiencesContainer = styled.div`
   grid-area: experience;

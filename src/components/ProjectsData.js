@@ -1,3 +1,4 @@
+import GeoApp from "../assets/GeoApp.png";
 import Edie from "../assets/edie.png";
 import Recipe from "../assets/recipe.png";
 import Checkout from "../assets/checkout.png";
@@ -8,10 +9,17 @@ import Team from "../assets/team.png";
 
 const data = [
   {
+    image: GeoApp,
+    tags: ["Nextjs", "Nestjs", "Leaflet", "WMS"],
+    title: "Geo App",
+    description: "Geo application for the government of Buenaventura",
+    demoURL: "https://geo-app-buenaventura.herokuapp.com/",
+  },
+  {
     image: Edie,
     tags: ["HTML", "CSS", "ResponsiveDesign", "React"],
     title: "Edie Homepage",
-    description: "Lading page of Edie enterprise",
+    description: "Landing page of Edie enterprise",
     demoURL: "https://edie-homepage-alifend.netlify.app/",
     codeURL: "https://github.com/Alifend/edie-homepage",
   },

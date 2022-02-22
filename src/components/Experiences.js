@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Studying from "../assets/studying.jpg";
 import SingleExperience from "./SingleExperience";
 const Experiences = () => {
   return (
@@ -40,25 +39,4 @@ const Title = styled.p`
   margin-right: auto;
 `;
 
-const Image = styled.img`
-  width: 85%;
-  height: 85%;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 20px;
-`;
-
-const Description = styled.p`
-  text-align: center;
-`;
-
-const Content = styled.div`
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 80%;
-`;
 export default Experiences;

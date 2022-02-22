@@ -97,7 +97,7 @@ const SkillsData = {
     "Bootstrap",
     "styled-components",
   ],
-  backend: ["Nodejs", "Expressjs", "JWT", "SQL", "NOSQL"],
+  backend: ["Django", "Nodejs", "Expressjs", "JWT", "SQL", "NOSQL"],
   languages: ["Javascript", "Python", "Java", "C++"],
   tools: ["Git", "Github"],
 };

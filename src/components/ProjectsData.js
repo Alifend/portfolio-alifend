@@ -13,7 +13,7 @@ const data = [
     tags: ["Nextjs", "Nestjs", "Leaflet", "WMS"],
     title: "Geo App",
     description: "Geo application for the government of Buenaventura",
-    demoURL: "https://geo-app-buenaventura.herokuapp.com/",
+    demoURL: "http://www.geoportalbuenaventura.com/",
   },
   {
     image: Edie,

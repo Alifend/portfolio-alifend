@@ -89,15 +89,26 @@ const Description = styled.p`
 `;
 const SkillsData = {
   frontend: [
+    "Nextjs",
     "HTML",
     "CSS",
     "React",
+    "MaterialUI",
+    "Tailwind",
     "Redux",
     "Vue",
     "Bootstrap",
     "styled-components",
   ],
-  backend: ["Django", "Nodejs", "Expressjs", "JWT", "SQL", "NOSQL"],
+  backend: [
+    "Nestjs",
+    "Prisma ORM",
+    "Nodejs",
+    "Expressjs",
+    "JWT",
+    "SQL",
+    "NOSQL",
+  ],
   languages: ["Javascript", "Python", "Java", "C++"],
   tools: ["Git", "Github"],
 };

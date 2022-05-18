@@ -15,11 +15,18 @@ const Experiences = () => {
 const data = [
   {
     title: "Ingeniero Junior Full Stack ",
-    at: "Consultora C&O - Jornada completa jun.",
-    time: " 2021 - actualidad - 9 meses",
+    at: "Consultora C&O - Part time",
+    time: "",
     place: "Cali, Valle del Cauca, Colombia",
     image:
       "https://media-exp1.licdn.com/dms/image/C4E0BAQHmpU9Okf0LJg/company-logo_200_200/0/1580494914832?e=1653523200&v=beta&t=HIG3wgkYyGtWXv4UDci5p3T7TBcQMH3byXYFQnyMjlM",
+  },
+  {
+    title: "Ingeniero Junior Full Stack ",
+    at: "DK - Full time",
+    time: "7 months",
+    place: "Tuluá, Valle del Cauca, Colombia",
+    image: "https://www.dkda.com.co/img/Index/web/Iconos/DK.png",
   },
 ];
 

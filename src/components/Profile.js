@@ -21,7 +21,7 @@ const Profile = () => {
             </EmailContainer>
             <div style={{ display: "flex" }}>
               {PhoneIcon}
-              <Phone>(+57) 301 7739 308</Phone>
+              <Phone>(+57) 324 5884 037</Phone>
             </div>
           </div>
         </SectionOne>

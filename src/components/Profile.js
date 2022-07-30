@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ImageURL from "../assets/profile.jpg";
+import ImageURL from "../assets/profile.jpeg";
 import { PhoneIcon, EmailIcon } from "./Icons";
 const Profile = () => {
   return (

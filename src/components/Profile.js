@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ImageURL from "../assets/profile.jpg";
+import ImageURL from "../assets/profile.jpeg";
 import { PhoneIcon, EmailIcon } from "./Icons";
 const Profile = () => {
   return (
@@ -21,7 +21,7 @@ const Profile = () => {
             </EmailContainer>
             <div style={{ display: "flex" }}>
               {PhoneIcon}
-              <Phone>(+57) 301 7739 308</Phone>
+              <Phone>(+57) 324 5884 037</Phone>
             </div>
           </div>
         </SectionOne>

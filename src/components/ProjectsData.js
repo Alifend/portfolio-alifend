@@ -6,8 +6,24 @@ import Interior from "../assets/interior.png";
 import Gallery from "../assets/gallery.png";
 import Page404 from "../assets/Page404.png";
 import Team from "../assets/team.png";
+import Shoppingify from "../assets/shoppingify.png";
 
 const data = [
+  {
+    image: Shoppingify,
+    tags: [
+      "React",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Framer Motion",
+      "Styled Components",
+    ],
+    title: "Shoppingify",
+    description:
+      "Application that helps you with your shopping list and keep track of your shop history",
+    demoURL: "https://shoppingify-alifend.netlify.app/home",
+  },
   {
     image: GeoApp,
     tags: ["Nextjs", "Nestjs", "Leaflet", "WMS"],
